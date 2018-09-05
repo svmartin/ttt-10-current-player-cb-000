@@ -1,5 +1,5 @@
 def turn_count(board)
   total = 0
-  total += total.count("X")
-  total += total.count("O")
+  total += board.count("X")
+  total += board.count("O")
 end
